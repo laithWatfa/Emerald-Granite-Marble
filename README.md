@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🪨 Emerald Stone Gallery | معرض إميرالد للأحجار
 
-## Getting Started
+A modern, high‑performance stone catalog website built with **Next.js** and **Supabase**, designed to showcase marble, granite, and quartz collections with a clean public experience and a powerful admin dashboard.
 
-First, run the development server:
+موقع إلكتروني حديث وعالي الأداء لعرض الأحجار الطبيعية (رخام، غرانيت، كوارتز)، مبني باستخدام **Next.js** و **Supabase**، مع واجهة عامة محسّنة وتجربة إدارة متكاملة.
+
+---
+
+## 🌍 Website Description (EN)
+
+**Emerald Stone Gallery** is a professional stone catalog platform designed for stone suppliers, showrooms, and fabrication businesses. The website allows visitors to browse stones by type, color, thickness, and usage, while ensuring fast loading, SEO optimization, and mobile‑first design.
+
+An integrated admin dashboard enables full control over stone data, including multilingual descriptions, availability, dimensions, and multiple high‑quality images stored securely in Supabase Storage.
+
+The platform focuses on performance, scalability, and clarity — making it suitable for real‑world commercial use.
+
+---
+
+## 🌍 وصف الموقع (AR)
+
+**معرض إيميرالد للأحجار** هو منصة احترافية لعرض الأحجار الطبيعية، مصممة خصيصًا لمعارض الأحجار، موردي الرخام، وأعمال التصنيع.
+
+يتيح الموقع للزوار تصفح الأحجار حسب النوع، اللون، السماكة، والاستخدام، مع تجربة استخدام سريعة، متوافقة مع الجوال، ومحسّنة لمحركات البحث.
+
+كما يوفر لوحة تحكم إدارية قوية لإدارة الأحجار، الصور المتعددة، التوفر، والمواصفات، مع تخزين آمن باستخدام Supabase.
+
+التركيز الأساسي للمشروع هو الأداء العالي، القابلية للتوسع، والوضوح البصري.
+
+---
+
+## ✨ Features | المميزات
+
+### Public Website
+
+* Stone catalog with filters (type, color, thickness)
+* High‑performance image gallery
+* SEO‑optimized pages
+* Mobile‑first responsive design
+* Custom 404 and placeholder images
+
+### Admin Dashboard
+
+* Secure admin authentication
+* Create, edit, and delete stones
+* Upload and manage multiple images per stone
+* Availability toggle
+* Arabic content support
+
+---
+
+## 🧱 Tech Stack | التقنيات المستخدمة
+
+* **Next.js 16 (App Router)**
+* **TypeScript**
+* **Supabase** (Database, Auth, Storage)
+* **Next/Image** for optimized images
+* **Tailwind CSS**
+* **Vercel** for deployment
+
+---
+
+## ⚡ Performance & SEO
+
+* Server‑side rendering (SSR)
+* Optimized images and fonts
+* SEO meta tags and Open Graph
+* Admin and login pages excluded from indexing
+* Lighthouse‑optimized for production
+
+---
+
+## 🔐 Security
+
+* Admin routes protected
+* Supabase Row Level Security (RLS)
+* Environment variables secured via Vercel
+
+---
+
+## 🚀 Deployment
+
+The project is deployed on **Vercel** and connected to **Supabase** for backend services.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run build
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📌 Future Improvements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Advanced filtering
+* Stone comparison
+* Image zoom & lightbox
+* CMS role management
+* Analytics dashboard
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is private and intended for commercial use.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🤝 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Developed with care using modern web technologies.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you have any questions or want to extend the project, feel free to reach out.
+
+---
+
+> Built for performance, clarity, and real‑world business use.
