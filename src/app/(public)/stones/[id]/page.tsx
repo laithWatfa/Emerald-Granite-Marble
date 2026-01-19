@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import StoneGallery from '@/components/user/StoneGallery'
 import { FaWhatsapp } from 'react-icons/fa'
 import { supabaseServer } from '@/lib/supabase/server'
+import { supabase } from '@/lib/supabase/client'
  type Props = {
   params: {
     id: string
@@ -18,7 +19,6 @@ const colorStyleMap: Record<string, string> = {
 
 
 export default async function StoneDetailPage({ params }: Props) {
-const supabase = supabaseServer();
 const {id} = await params;
 const { data: stone, error } = await supabase
   .from('stones')
